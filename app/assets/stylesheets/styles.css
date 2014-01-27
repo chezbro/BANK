@@ -1,6 +1,8 @@
 html body {
-  background-color: #000;
+  	background-color: #000;
     color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 300;
 }
 
 .refresh{
@@ -9,6 +11,11 @@ html body {
 	height: 100px;
 	width: 100px;
 	padding: 0;
+}
+.refresh_text{
+	font-size: 28px;
+	color: white;
+	font-weight: 300;
 }
 
 .fam{
@@ -21,6 +28,7 @@ html body {
 }
 .fam h3{
 	text-align: center;
+
 }
 
 .fam img{

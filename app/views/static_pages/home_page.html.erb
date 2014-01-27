@@ -1,4 +1,11 @@
-<%= button_to "Refresh", 'http://murmuring-refuge-5442.herokuapp.com/', :method => :get %>
+<div class="refresh">
+<%= button_to "Refresh That Ish", 'localhost:3000/', :method => :get %>
+</div>
 <h1> <%= @title %> </h1>
 <h2><%= @worth %></h2>
 <h4><%= @body %></h4>
+
+<div class="fam">
+	<h3>For Fam</h3>
+	<%= image_tag "fam.jpg" %>
+</div>

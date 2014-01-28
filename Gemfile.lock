@@ -39,6 +39,7 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     erubis (2.7.0)
     execjs (2.0.2)
+    google_image_api (0.0.1)
     hike (1.2.3)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
@@ -133,6 +134,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  google_image_api
   jbuilder (~> 1.2)
   jquery-rails
   mechanize

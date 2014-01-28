@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'nokogiri'
 gem 'mechanize'
+gem "google_image_api"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'

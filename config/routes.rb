@@ -2,6 +2,8 @@ Bank::Application.routes.draw do
 
   root to: "static_pages#home_page"
 
+  get "/forbes" => 'static_pages#forbes', as: 'forbes'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -32,20 +32,8 @@ class StaticPagesController < ApplicationController
 	  @url = result["unescapedUrl"]
 	end
 	def forbes
-		# url = "http://www.forbes.com/billionaires/list/"
-		# doc = Nokogiri::HTML(open(url))
-		# @image = doc.at_css("#listbody img")
-
-		agent = Mechanize.new
-		page = agent.get("http://www.forbes.com/billionaires/list/")
-		@images = page.search("#listbody img")
-
-		# @title = agent.page.at("title").text
-
-		# name = @title.split(/\W+/)
-		# first_name = name[0]
-		# last_name = name[1]
-		# @full_name = first_name + ' ' + last_name
+		doc = Nokogiri::HTML(open("http://www.forbes.com/billionaires/list/"))
+		@images = doc.css("#listbody img")
 	end
   # result.images.first do |img|
   #   puts img['url']
